@@ -1,0 +1,25 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.carousel {
+  max-width: 1280px;
+  border-color: #4e1a1a;
+}
+
+.card {
+  max-width: 300px;
+  margin: 0px auto 50px;
+  margin-top: 48px;
+}
+
+footer {
+  background-color: rgb(105, 118, 126);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-weight: bolder;
+}

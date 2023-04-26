@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Avançado</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div
+          id="carousel-exemplo"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div data-bs-interval="2000" class="carousel-item active">
+              <img
+                class="d-block w-100 img-carousel"
+                src="./imagens/rush1.png"
+                alt="Logo Rush"
+              />
+              <div>
+                <h4 class="carousel-caption">
+                  RUSH - A maior banda de todos os tempos
+                </h4>
+              </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+              <img
+                class="d-block w-100 img-carousel"
+                src="./imagens/rush100.jpg"
+                width="530"
+                height="530"
+                alt="Rush, A Banda"
+              />
+              <div>
+                <h4 class="carousel-caption">RUSH - O Power Trio</h4>
+              </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+              <img
+                class="d-block w-100 img-carousel"
+                src="./imagens/rush3.png"
+                alt="RUSH"
+              />
+              <div>
+                <h4 class="carousel-caption">RUSH - O Culto</h4>
+              </div>
+            </div>
+          </div>
+          <button
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide="prev"
+            class="carousel-control-prev"
+            type="button"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide="next"
+            class="carousel-control-next"
+            type="button"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel-exemplo"
+              class="active"
+              data-bs-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-exemplo"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-exemplo"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <section>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <article class="card text-bg-secondary">
+              <header class="card-header">
+                <h4><strong>Alex Lifeson</strong></h4>
+              </header>
+              <img
+                class="img-section"
+                src="./imagens/alex.jpg"
+                width="300"
+                height="300"
+                alt="Alex Lifeson"
+              />
+              <div class="card-body">
+                <h5 class="card-title">O criador de um gênero musical.</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                  qui vero, consequuntur explicabo fugiat saepe aperiam numquam
+                  voluptates sint iusto, debitis voluptatum placeat quidem nobis
+                  perspiciatis exercitationem aliquid! Quisquam, ut.
+                </p>
+                <a href="#" class="btn btn-dark">Leia Mais</a>
+              </div>
+              <footer class="card-footer">
+                Postado em <time>26/04/2023 às 09:10:00</time>
+              </footer>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <article class="card text-bg-secondary">
+              <header class="card-header">
+                <h4><strong>Geddy Lee</strong></h4>
+              </header>
+              <img
+                class="img-section"
+                src="./imagens/geddy.jpg"
+                width="300"
+                height="300"
+                alt="Geddy Lee"
+              />
+              <div class="card-body">
+                <h5 class="card-title">O maior baixista de todos os tempos</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolor vel velit, qui sequi deserunt optio ipsa doloremque
+                  reiciendis necessitatibus ab sed dignissimos impedit. Quasi
+                  veniam quis repudiandae et non eaque.
+                </p>
+                <a href="#" class="btn btn-dark">Leia Mais</a>
+              </div>
+              <footer class="card-footer">
+                Postado em <time>26/04/2023 às 09:10:00</time>
+              </footer>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <article class="card text-bg-secondary">
+              <header class="card-header">
+                <h4><strong>Neil Peart</strong></h4>
+              </header>
+              <img
+                class="img-section"
+                src="./imagens/neil.jpg"
+                width="300"
+                height="300"
+                alt="Neil Peart"
+              />
+              <div class="card-body">
+                <h5 class="card-title">O Deus da Bateria</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Fuga, beatae dolorem nemo distinctasdasdasd io aperiam totam?
+                  Optio laboriosam perferendis odit maiores illo, iusto
+                  asperiores dolore ullam explicabo, neque consequatur amet est?
+                </p>
+                <a href="#" class="btn btn-dark">Leia Mais</a>
+              </div>
+              <footer class="card-footer">
+                Postado em <time>26/04/2023 às 09:10:00</time>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="container">
+      vono.dev &copy - Todos os direitos reservados - 2023.
+    </footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
